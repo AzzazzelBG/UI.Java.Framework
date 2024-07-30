@@ -5,14 +5,14 @@ This repository provides a robust and well-structured Selenium Java testing fram
 
 ## Features:
 
-- Page Object Model (POM): Encapsulates UI elements and interactions for clean test logic.
-- TestNG Integration: Leverages TestNG's powerful features for test execution, reporting, and assertions.
-- Driver Management: Simplifies browser driver setup using WebDriverManager (or your preferred approach).
-- Configuration Management: Easily manage test environment configurations (e.g., URLs, credentials) using properties files or environment variables.
-- Test Data Management: Separates test data from test scripts for better organization and maintainability (e.g., CSV, JSON, or database).
-- Logging: Integrates with a logging library (e.g., Log4j, SLF4J) for detailed test execution logs.
-- Reporting: Offers clean and informative test reports (e.g., TestNG reports, Allure reports).
-- Modular Design: Promotes code reusability through well-defined classes and packages.
+- **Page Object Model (POM)**: Encapsulates UI elements and interactions for clean test logic.
+- **TestNG Integration**: Leverages TestNG's powerful features for test execution, reporting, and assertions.
+- **Driver Management**: Simplifies browser driver setup using WebDriverManager (or your preferred approach).
+- **Configuration Management**: Easily manage test environment configurations (e.g., URLs, credentials) using properties files or environment variables.
+- **Test Data Management**: Separates test data from test scripts for better organization and maintainability (e.g., CSV, JSON, or database).
+- **Logging**: Integrates with a logging library (e.g., Log4j, SLF4J) for detailed test execution logs.
+- **Reporting**: Offers clean and informative test reports (e.g., TestNG reports, Allure reports).
+- **Modular Design**: Promotes code reusability through well-defined classes and packages.
 ## Getting Started:
 
 1. Prerequisites:
