@@ -50,7 +50,7 @@ We welcome contributions to improve this framework! Please refer to the CONTRIBU
 
 ## License:
 
-**MIT License**
+[MIT License](https://github.com/AzzazzelBG/UI.Java.Framework/tree/main?tab=MIT-1-ov-file#)
 
 ## Additional Notes:
 
