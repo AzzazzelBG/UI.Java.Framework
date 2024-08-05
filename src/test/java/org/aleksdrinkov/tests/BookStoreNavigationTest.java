@@ -12,6 +12,12 @@ public class BookStoreNavigationTest extends BaseTest {
 
         landingPage.navigateToBookStore();
         BookStorePage bookStorePage = new BookStorePage(driver);
-        Assert.assertTrue(bookStorePage.verifyBookStoreUrl());
+        Assert.assertTrue(bookStorePage.verifyBookStoreUrl("books"));
+
+        bookStorePage.getNavPanel()
+                .selectSubMenu("Book Store Application","Login")
+                .click();
+
+        bookStorePage.verifyBookStoreUrl("login");
     }
 }
