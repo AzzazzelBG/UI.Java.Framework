@@ -54,4 +54,15 @@ We welcome contributions to improve this framework! Please refer to the CONTRIBU
 
 ## Additional Notes:
 
-The framework and all its content is still under development which could lead to some inconvinences if you don't use the latest version from this repository.
+The framework and all its content is still under development which could lead to some inconveniences if you don't use the latest version from this repository.
+
+## Next steps and ideas
+
+- Create several tests for the BookStore app in DemoQA website
+- Improve the Navigation Panel page object by adding enums for all possible pages in the BookStore
+- Use the @before @beforeAll @after and @afterAll TestNG attributes in tests
+- Implement Retry functionality to use it as attribute for flaky tests
+- Include tests with various test data combinations
+- Add support for database data insertion
+- Prepare the framework for integration with CI/CD
+- Add Cucumber functionalities and tests
