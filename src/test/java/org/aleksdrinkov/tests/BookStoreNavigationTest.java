@@ -1,11 +1,14 @@
 package org.aleksdrinkov.tests;
 
 import org.aleksdrinkov.pageobjects.BookStorePage;
+import org.aleksdrinkov.pageobjects.BookStorePage.BookStorePages;
 import org.aleksdrinkov.testcomponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BookStoreNavigationTest extends BaseTest {
+
+    String login = BookStorePages.LOGIN.name().toLowerCase();
 
     @Test(groups = {"Navigation"})
     public void navigateToBookStorePage() {
@@ -18,6 +21,6 @@ public class BookStoreNavigationTest extends BaseTest {
                 .selectSubMenu("Book Store Application","Login")
                 .click();
 
-        bookStorePage.verifyBookStoreUrl("login");
+        bookStorePage.verifyBookStoreUrl(login);
     }
 }

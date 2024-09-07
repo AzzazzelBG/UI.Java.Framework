@@ -5,6 +5,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BookStorePage extends BasePage {
 
+   public enum BookStorePages {
+        LOGIN,
+        BOOKS,
+        PROFILE,
+        SWAGGER
+    }
+
     WebDriver driver;
     public BookStorePage(WebDriver driver) {
         super(driver);
@@ -15,6 +22,6 @@ public class BookStorePage extends BasePage {
 
     public Boolean verifyBookStoreUrl(String url) {
         String pageUrl = driver.getCurrentUrl();
-        return pageUrl.contains("/" + url.toLowerCase());
+        return pageUrl.contains("/" + url);
     }
 }
