@@ -59,7 +59,7 @@ The framework and all its content is still under development which could lead to
 ## Next steps and ideas
 
 - Create several tests for the BookStore app in DemoQA website
-- Improve the Navigation Panel page object by adding enums for all possible pages in the BookStore
+- ~~Improve the Navigation Panel page object by adding enums for all possible pages in the BookStore~~
 - Use the @before @beforeAll @after and @afterAll TestNG attributes in tests
 - Implement Retry functionality to use it as attribute for flaky tests
 - Include tests with various test data combinations
