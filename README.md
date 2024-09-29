@@ -22,7 +22,7 @@ This repository provides a robust and well-structured Selenium Java testing fram
 
 **Bash**
 ```
- git clone https://github.com/<your-username>/<your-repo-name>.git 
+ git clone https://github.com/AzzazzelBG/UI.Java.Framework.git 
  ```
 
 3. Set up environment:
@@ -66,3 +66,4 @@ The framework and all its content is still under development which could lead to
 - Add support for database data insertion
 - Prepare the framework for integration with CI/CD
 - Add Cucumber functionalities and tests
+- Integrate Allure reporter
