@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="All Test Suite">
+<suite parallel="tests" name="Navigation Test Suite">
+    <groups>
+        <run>
+            <include name="Navigation"/>
+        </run>
+    </groups>
 
     <listeners>
         <listener class-name="org.aleksdrinkov.testcomponents.Listeners"/>
     </listeners>
 
-    <test thread-count="2" verbose="2" preserve-order="true" name="All Tests">
+    <test thread-count="2" verbose="2" preserve-order="true" name="Navigation tests">
         <classes>
             <class name="org.aleksdrinkov.tests.BookStoreNavigationTest"/>
         </classes>
