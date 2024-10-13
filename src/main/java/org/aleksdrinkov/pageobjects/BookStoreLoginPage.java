@@ -18,6 +18,12 @@ public class BookStoreLoginPage extends BasePage {
 
     @FindBy(xpath = "//h1[contains(text(),'Login')]")
     WebElement loginHeader;
+    @FindBy(id = "newUser")
+    public WebElement newUserButton;
+
+    public void goTo() {
+        driver.get("https://demoqa.com/login");
+    }
 
     public Boolean verifyLoginTitleIsDisplayed() {
         return  loginHeader.isDisplayed();
