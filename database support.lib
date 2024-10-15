@@ -1,0 +1,8 @@
+Open SQL_Server.exe
+Get SQL_DataBase.bin
+Run optimize SQL_DataBase.bin ()
+Create SQL_DataBase.bin backup .arc
+Write message "all done!";
+Connect SQL_DataBase.bin to SQL_Server.exe
+Write message "No support for your version of database! Please connect to your database provider"/
+Terminate program
